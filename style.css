@@ -1,0 +1,96 @@
+html{
+  box-sizing: border-box;
+}
+
+*{
+  box-sizing: inherit;
+  font-family:"Figtree", sans-serif;;
+}
+
+body{
+  background-color: hsl(47, 88%, 63%);
+}
+
+p{
+  font-size:16px;
+}
+
+.main-class{
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.container{
+  background-color: white;
+  border:2px solid black;
+  border-radius:15px;
+  height:500px;
+  width:350px;
+  padding:20px;
+}
+
+.image1-class{
+  width:305px;
+  height:200px;
+  margin-bottom:-8px;
+}
+
+.illus-img{
+  width:100%;
+  border-radius:10px;
+}
+
+.learning-class{
+  background-color:hsl(47, 88%, 63%);
+  padding:5px 10px;
+  display:inline-block;
+  font-weight: 800;
+  margin-bottom:0px;
+}
+
+.published-class{
+  font-weight: 500;
+  color:hsl(0, 0%, 7%);
+}
+
+.head-class{
+  font-weight:800;
+  cursor:pointer;
+}
+
+.head-class:hover{
+  color:hsl(47, 88%, 63%);
+}
+
+.info-class{
+  color:hsl(0, 0%, 42%);
+}
+
+.holder-class{
+  display: flex;
+  justify-content: start;
+  align-items:center;
+}
+
+.image2-class{
+  width:35px;
+}
+
+.holder-name{
+  font-weight: 800;
+  margin-left:12px;
+}
+
+
+@media(max-width=375px){
+  .container{
+    width:325px;
+    padding:8px;
+  }
+
+  .image1-class{
+    width:280px;
+  }
+}
